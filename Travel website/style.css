@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.load{
+    animation: slide 2s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 40s infinite;
+}
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.principal p{
+    font-size: 20px;
+}
+@keyframes slide{
+    0%{
+        background-image: url('imgs/Tanguar_Haor.jpg');
+    }
+    20%{
+        background-image: url('imgs/Tanguar_Haor.jpg');
+    }
+    20.01%{
+        background-image: url('imgs/Ratargul-Children.jpg');
+    }
+    40%{
+        background-image: url('imgs/Ratargul-Children.jpg');
+    }
+    40.01%{
+        background-image: url('imgs/Satchari_Scenario.jpg');
+    }
+    60%{
+        background-image: url('imgs/Satchari_Scenario.jpg');
+    }
+    60.01%{
+        background-image: url('imgs/Waterplants.jpg');
+    }
+    80%{
+        background-image: url('imgs/Waterplants.jpg');
+    }
+    80.1%{
+        background-image: url('imgs/Owl.jpg');
+    }
+    100%{
+        background-image: url('imgs/Owl.jpg');
+    }
+}
