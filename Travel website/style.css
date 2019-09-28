@@ -1,69 +1,69 @@
-*{
-    margin: 0;
+*
+{
     padding: 0;
+    margin: 0;
 }
-.load{
-    animation: slide 2s;
-}
-.slider{
-    background-repeat: no-repeat;
+.header
+{
+    height: 100%;
+    background-image: url(imgs/Tanguar_Haor2.jpg);
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 100vh;
-    animation: slide 40s infinite;
-}
-.content{
-    color: #fff;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.principal{
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    letter-spacing: 5px;
+    background-attachment: fixed;
+    padding-top: 20px; 
     text-align: center;
-
+    color: #fff;
 }
-.principal h1{
-    font-size: 70px;
-    margin-bottom: 20px;
+.header img
+{
+    width: 120px;
+    float: left;
 }
-.principal p{
-    font-size: 20px;
+.signIn-btn
+{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
 }
-@keyframes slide{
-    0%{
-        background-image: url('imgs/Tanguar_Haor.jpg');
-    }
-    20%{
-        background-image: url('imgs/Tanguar_Haor.jpg');
-    }
-    20.01%{
-        background-image: url('imgs/Ratargul-Children.jpg');
-    }
-    40%{
-        background-image: url('imgs/Ratargul-Children.jpg');
-    }
-    40.01%{
-        background-image: url('imgs/Satchari_Scenario.jpg');
-    }
-    60%{
-        background-image: url('imgs/Satchari_Scenario.jpg');
-    }
-    60.01%{
-        background-image: url('imgs/Waterplants.jpg');
-    }
-    80%{
-        background-image: url('imgs/Waterplants.jpg');
-    }
-    80.1%{
-        background-image: url('imgs/Owl.jpg');
-    }
-    100%{
-        background-image: url('imgs/Owl.jpg');
-    }
+.header h1
+{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p
+{
+    margin: 18px 0;
+    color: black;
+}
+.input-group
+{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control
+{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    width: 100px;
+    background-image: linear-gradient(rgb(243, 207, 130),rgb(240, 213, 61));
+    border: 0 !important;
+    color: rgb(0, 0, 0) !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
 }
