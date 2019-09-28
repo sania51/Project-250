@@ -1,0 +1,69 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    height: 100%;
+    background-image: url(imgs/Tanguar_Haor2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px; 
+    text-align: center;
+    color: #fff;
+}
+.header img
+{
+    width: 120px;
+    float: left;
+}
+.signIn-btn
+{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+.header h1
+{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p
+{
+    margin: 18px 0;
+    color: black;
+}
+.input-group
+{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control
+{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    width: 100px;
+    background-image: linear-gradient(rgb(243, 207, 130),rgb(240, 213, 61));
+    border: 0 !important;
+    color: rgb(0, 0, 0) !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
