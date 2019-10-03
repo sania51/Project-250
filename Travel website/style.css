@@ -3,123 +3,157 @@
     padding: 0;
     margin: 0;
 }
-.header
-{
-    height: 100%;
-    background-image: url(imgs/Tanguar_Haor2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 20px; 
-    text-align: center;
-    color: #fff;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-.header img
-{
-    width: 120px;
-    float: left;
+/* Dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
-.signIn-btn
-{
-    width: 100px;
-    padding: 8px 0;
-    outline: none !important;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    background: transparent;
-    color: #fff;
-    float: right;
+.active {
+  background-color: #717171;
 }
-.header h1
-{
-    padding-top: 260px;
-    padding-bottom: 0;
-    font-size: 55px;
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
 }
-.header p
-{
-    margin: 18px 0;
-    color: black;
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
-.input-group
-{
-    width: 90%;
-    max-width: 500px;
-    border-radius: 30px;
-    background: #fff;
-    margin: auto;
-    padding: 2px;
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
-.form-control
-{
-    border: 0 !important;
-    border-radius: 30px !important;
-    margin: 2px;
-    box-shadow: none !important;
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
-.input-group-text
-{
-    width: 100px;
-    background-image: linear-gradient(rgb(243, 207, 130),rgb(240, 213, 61));
-    border: 0 !important;
-    color: rgb(0, 0, 0) !important;
-    padding: 0 25px !important;
-    border-radius: 30px !important;
-    box-shadow: none !important;
+/* Bangladesh */
+.heading {
+  color: #f2f2f2;
+  position: absolute;
+  top: 350px;
+  left: 485px;
+  font-family: 'Courier New', Courier, monospace, Impact;
+  font-size: 90px;
 }
-.welcome
+/* Introduction */
+.intro
 {
-    padding: 90px 0;
+  color: #f2f2f2;
+  position: absolute;
+  top: 450px;
+  left: 560px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }
-.welcome h1
-{
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Gill Sans';
-    color: green
+/* Logo */
+.logo img {
+  top: 5px;
+  left: 55px;
+  width: 120px;
+  position:absolute;
 }
-.welcome p
-{
-    margin: 37px 19%;
-    text-align: left;
-    font-style: italic;
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif, monospace;
-    color: rgb(0, 12, 82);
+/* Sign In*/
+.signIn-btn {
+  width: 100px;
+  position: absolute;
+  top: 45px;
+  left: 1400px;
+  padding: 5px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  float: right;
 }
-hr.line
-{
-    margin: 0px 45%;
-    border: 2px solid red;
+/* Search */
+.input-group {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin: auto;
+  padding: 2px;
+  top: -170px;
+  left: -7px;
 }
-.top_places h1
-{
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Gill Sans';
-    color: green
+.form-control {
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
 }
-hr.tline
-{
-    margin: 0px 45%;
-    border: 2px solid red;
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(rgb(243, 207, 130),rgb(240, 213, 61));
+  border: 0 !important;
+  color: rgb(0, 0, 0) !important;
+  padding: 0 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
 }
-.feature-img img
-{
-    width: 100%;
-    margin: 60px -70px;
+/* Welcome */
+.welcome {
+  padding: 90px 0;
 }
-.no1
-{
-    width: 50px;
-    height: 50px;
-    background: white;
-    color: black;
-    font-weight: 600;
-    border-radius: 50%;
-    padding: 10px;
-    position: absolute;
-    box-shadow: 0 0 10px 1px black;
-    left: 100px;
-    bottom: 190px;
+.welcome h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green
+}
+.welcome p {
+  margin: 37px 19%;
+  text-align: left;
+  font-style: italic;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif, monospace;
+  color: black;
+}
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+/* Top Places */
+.top_places h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green
+}
+hr.tline {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+.feature-img img {
+  width: 100%;
+  margin: 60px -70px;
+}
+.no1 {
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: black;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  box-shadow: 0 0 10px 1px black;
+  left: 100px;
+  bottom: 190px;
 }

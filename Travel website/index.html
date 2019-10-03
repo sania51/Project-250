@@ -6,19 +6,64 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     </head>
     <body>
-        <section class="header">
-            <div class="container">
-                <img src="imgs/logo.png">
-                <button type="button" class="signIn-btn">Sign in</button>
+      
+        <div class="slideshow-container">
+            <!--First Image-->
+            <div class="mySlides fade">
+              <div style="background-image: url('imgs/Tanguar_Haor2.jpg'); background-position: center; margin: 2 -257; background-size: cover; width: 154%; padding-top: 20px; height: 90%;">
+              </div>
             </div>
-            <h1>Bangladesh</h1>
-            <p>A place of beauty and culture</p>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="search city">
-                <div class="input-group-append"></div>
-                <button type="submit" class="input-group-text btn">Search</button>
+            <!--Second Image-->
+            <div class="mySlides fade">
+              <div style="background-image: url('imgs/Jaflong_Scenario.jpg'); background-position: center; margin: 2 -257; background-size: cover; width: 154%; padding-top: 20px; height: 90%;">
+              </div>
             </div>
-        </section>
+            <!--Third Image-->
+            <div class="mySlides fade">
+              <div style="background-image: url('imgs/Waterplants.jpg'); background-position: center; margin: 2 -257; background-size: cover; width: 154%; padding-top: 20px; height: 90%;">
+              </div> 
+            </div>
+        </div>
+
+        <div class="heading">BANGLADESH</div>
+        <div class="intro"><p>A Place of Beauty and Culture</p></div>
+        <div class="logo"><img src="imgs/logo.png"></div>
+        <button type="button" class="signIn-btn">Sign in</button>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="where to?">
+          <div class="input-group-append"></div>
+          <button type="submit" class="input-group-text btn">Search</button>
+        </div>
+            
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
 
         <!--welcome-->
         <section class="welcome">
