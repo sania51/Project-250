@@ -72,7 +72,7 @@
   width: 100px;
   position: absolute;
   top: 45px;
-  left: 1400px;
+  right: 50px;
   padding: 5px 0;
   outline: none !important;
   border: 2px solid #fff;
@@ -89,8 +89,8 @@
   background: #fff;
   margin: auto;
   padding: 2px;
-  top: -170px;
-  left: -7px;
+  top: 510px;
+  left: 7px;
 }
 .form-control {
   border: 0 !important;
