@@ -46,8 +46,8 @@
   color: #f2f2f2;
   position: absolute;
   top: 350px;
-  left: 485px;
-  font-family: 'Courier New', Courier, monospace, Impact;
+  right: 475px;
+  font-family: 'Courier New', Courier, monospace, Impact, bold;
   font-size: 90px;
 }
 /* Introduction */
@@ -80,6 +80,11 @@
   background: transparent;
   color: #fff;
   float: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signIn-btn:hover {
+  color: black;
+  border-color: black;
 }
 /* Search */
 .input-group {
@@ -107,6 +112,69 @@
   border-radius: 30px !important;
   box-shadow: none !important;
 }
+
+/* Vlog */
+.vlog {
+  position: absolute;
+  top: 50px;
+  right: 215px;
+  outline: none !important;
+  border: none;
+  background: transparent;
+  color: #fff;
+  float: right;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.vlog:hover {
+  color: black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 22px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  top: 47px;
+  right: 330px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: 0.75;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: black;}
+
 /* Welcome */
 .welcome {
   padding: 90px 0;
