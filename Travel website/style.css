@@ -46,8 +46,8 @@
   color: #f2f2f2;
   position: absolute;
   top: 350px;
-  right: 475px;
-  font-family: 'Courier New', Courier, monospace, Impact, bold;
+  left: 485px;
+  font-family: 'Courier New', Courier, monospace, Impact;
   font-size: 90px;
 }
 /* Introduction */
@@ -60,19 +60,13 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
 }
-/* Logo */
-.logo img {
-  top: 5px;
-  left: 55px;
-  width: 120px;
-  position:absolute;
-}
+
 /* Sign In*/
 .signIn-btn {
   width: 100px;
   position: absolute;
-  top: 45px;
-  right: 50px;
+  top: 10px;
+  right: 35px;
   padding: 5px 0;
   outline: none !important;
   border: 2px solid #fff;
@@ -80,12 +74,11 @@
   background: transparent;
   color: #fff;
   float: right;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 .signIn-btn:hover {
   color: black;
-  border-color: black;
-}
+  border-color: black;}
 /* Search */
 .input-group {
   width: 90%;
@@ -112,69 +105,6 @@
   border-radius: 30px !important;
   box-shadow: none !important;
 }
-
-/* Vlog */
-.vlog {
-  position: absolute;
-  top: 50px;
-  right: 215px;
-  outline: none !important;
-  border: none;
-  background: transparent;
-  color: #fff;
-  float: right;
-  font-size: 21px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.vlog:hover {
-  color: black;
-}
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: transparent;
-  color: white;
-  font-size: 22px;
-  border: none;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  top: 47px;
-  right: 330px;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  opacity: 0.75;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color: black;}
-
 /* Welcome */
 .welcome {
   padding: 90px 0;
@@ -224,4 +154,64 @@ hr.tline {
   box-shadow: 0 0 10px 1px black;
   left: 100px;
   bottom: 190px;
-}
+  }
+  
+  .menu{
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    padding: 0 150px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .menu img{
+    float: left;
+    margin-right: 10px;
+    width: 90px;
+  }
+  nav{
+    position: relative;
+    float: right;
+  }
+  nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li{
+    list-style: none;
+  }
+  nav ul li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 15px 20px;
+    text-decoration: none;
+
+  }
+  nav ul li a:hover{
+    background: transparent;
+    color: #fff;
+  }
+  nav ul li ul{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 150px;
+    position: absolute;
+    margin-top: 1px;
+    box-shadow: 0 2px 5px, rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: translateY(40px);
+  }
+  nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+  }
+  nav ul li ul li a{
+    display: block;
+  }

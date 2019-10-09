@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <meta name = "viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
       <title>TraveloBD</title>
     </head>
     <body>
@@ -29,28 +34,38 @@
 
         <div class="heading">BANGLADESH</div>
         <div class="intro"><p>A Place of Beauty and Culture</p></div>
-        <div class="logo"><img src="imgs/logo.png"></div>
-        <button type="button" class="signIn-btn">Sign in</button>
+        <!-- <div class="logo"><img src="imgs/logo.png"></div> -->
+        
         <div class="input-group">
           <input type="text" class="form-control" placeholder="where to?">
           <div class="input-group-append"></div>
           <button type="submit" class="input-group-text btn">Search</button>
         </div>
-        <button type="button" class="vlog">Vlogs</button>
-
-        <div class="dropdown" style="position: absolute;">
-          <button class="dropbtn">Cities</button>
-          <div class="dropdown-content">
-            <a href="#">Dhaka</a>
-            <a href="#">Chittagong</a>
-            <a href="#">Rajshahi</a>
-            <a href="#">Rangpur</a>
-            <a href="#">Sylhet</a>
-            <a href="#">Khulna</a>
-            <a href="#">Barishal</a>
-          </div>
+        
+        <div class="menu">
+            <a href="#" class="brand"><img src="imgs/logo.png"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cities</a>
+                        <ul>
+                            <li><a href="#">Dhaka</a></li>
+                            <li><a href="#">Chittagong</a></li>
+                            <li><a href="#">Rajshahi</a></li>
+                            <li><a href="#">Rangpur</a></li>
+                            <li><a href="#">Sylhet</a></li>
+                            <li><a href="#">Khulna</a></li>
+                            <li><a href="#">Barishal</a></li>
+                        </ul>    
+                    </li>       
+                    <li><a href="#">Vlogs</a></li>
+                   
+        
+                </ul>
+            </nav>
+            <button type="button" class="signIn-btn">Sign in</button>
         </div>
-
+        
         <div style="margin-top: 90vh"></div>
         <br>
         
@@ -61,25 +76,25 @@
         </div>
         
         <script>
-          var slideIndex = 0;
-          showSlides();
-          
-          function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}    
-            for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
           }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
         </script>
 
         <!--welcome-->
@@ -108,8 +123,5 @@
                 </div>
             </div> -->
         </section>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
