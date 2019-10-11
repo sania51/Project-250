@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 *
 {
     padding: 0;
@@ -46,40 +47,24 @@
   color: #f2f2f2;
   position: absolute;
   top: 350px;
-  left: 485px;
-  font-family: 'Courier New', Courier, monospace, Impact;
+  left: 410px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
   font-size: 90px;
 }
 /* Introduction */
 .intro
 {
-  color: #f2f2f2;
+  color: #252525;
   position: absolute;
   top: 450px;
-  left: 560px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  left: 490px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
   font-size: 30px;
 }
 
-/* Sign In*/
-.signIn-btn {
-  width: 100px;
-  position: absolute;
-  top: 10px;
-  right: 35px;
-  padding: 5px 0;
-  outline: none !important;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  background: transparent;
-  color: #fff;
-  float: right;
-}
 
-.signIn-btn:hover {
-  color: black;
-  border-color: black;}
-/* Search */
 .input-group {
   width: 90%;
   max-width: 500px;
@@ -88,7 +73,7 @@
   margin: auto;
   padding: 2px;
   top: 510px;
-  left: 7px;
+  left: 13px;
 }
 .form-control {
   border: 0 !important;
@@ -162,12 +147,13 @@ hr.tline {
     background: transparent;
     padding: 0 150px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255,0);
   }
   .menu img{
     float: left;
     margin-right: 10px;
-    width: 90px;
+    width: 110px;
+    top: 10px;
   }
   nav{
     position: relative;
@@ -193,7 +179,7 @@ hr.tline {
   }
   nav ul li a:hover{
     background: transparent;
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   nav ul li ul{
     display: block;
