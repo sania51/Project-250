@@ -4,97 +4,99 @@
     margin: 0;
 
 }
+/* Background */
 .header
 {
-    height: 100%;
-    background-image: url(imgs/Jaflong_Scenario.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 600px; 
-    text-align: center;
-    color: #fff;
+  background-image: url(imgs/Jaflong_Scenario.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 90vh;
+  width: 100wh;
+  padding-top: 20px; 
+  color: #fff;
 }
-
-
+/* Sylhet */
 .header h1
 {
-    color: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    top: 150px;
-    left: 32%;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 70px;
+  color: white;
+  position: absolute;
+  top: 420px;
+  left: 1%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 90px;
 }
-.header p
+/* Intro */
+.header h2
 {
-    color: #ffffff;
-    position: absolute;
-    top: 250px;
-    left: 40%;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 520px;
+  left: 1%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  opacity: 0.9;
+}
+/* Navigation Bar */
+.menu {
+  position: absolute;
+  background: transparent;
+  top: 20px;
+  right: 20px;
 }
 
-    .menu{
-        position: absolute;
-        width: 100%;
-        background: transparent;
-        padding: 10px 150px;
-        box-sizing: border-box;
-        border-bottom: 1px solid rgba(255, 255, 255,0);
-      }
-      .menu img{
-        float: left;
-        margin-right: 10px;
-        width: 120px;
-      }
-      nav{
-        position: relative;
-        float: right;
-      }
-      nav ul{
-        margin: 0;
-        padding: 0;
-        display: flex;
-      }
-      nav ul li{
-        list-style: none;
-      }
-      nav ul li a{
-        display: block;
-        color: rgb(255, 255, 255);
-        text-transform: uppercase;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 500;
-        padding: 20px 20px;
-        text-decoration: none;
-    
-      }
-      nav ul li a:hover{
-        background: transparent;
-        color: rgb(0, 0, 0);
-      }
-      nav ul li ul{
-        display: block;
-        background: rgba(0, 0, 0, 0.5);
-        min-width: 150px;
-        position: absolute;
-        margin-top: 1px;
-        box-shadow: 0 2px 5px, rgba(0, 0, 0, 0.5);
-        opacity: 0;
-        visibility: hidden;
-        transition: 0.5s;
-        transform: translateY(40px);
-      }
-      nav ul li:hover ul{
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0px);
-      }
-      nav ul li ul li a{
-        display: block;
-      }
+nav {
+  position: relative;
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 15px 20px;
+  text-decoration: none;
+
+}
+nav ul li a:hover {
+  background: transparent;
+  color: rgb(0, 0, 0);
+}
+nav ul li ul {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 150px;
+  position: absolute;
+  margin-top: 1px;
+  box-shadow: 0 2px 5px, rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  transform: translateY(40px);
+}
+nav ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+nav ul li ul li a {
+  display: block;
+}
+/* Logo */
+.logo img {
+  top: 5px;
+  left: 1%;
+  width: 120px;
+  position:absolute;
+}
 
