@@ -11,7 +11,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 90vh;
+  height: 100vh;
   width: 100wh;
   padding-top: 20px; 
   color: #fff;
@@ -19,7 +19,7 @@
 /* Sylhet */
 .header h1
 {
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   position: absolute;
   top: 420px;
   left: 1%;
@@ -98,5 +98,76 @@ nav ul li ul li a {
   left: 1%;
   width: 120px;
   position:absolute;
+}
+
+
+/* Welcome */
+.welcome {
+  padding: 90px 0;
+}
+.welcome h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: rgb(0, 0, 0)
+}
+.welcome p {
+  margin: 37px 19%;
+  text-align: left;
+
+  font-size: 35px;
+  font-family: 'Source Serif Pro', serif;;
+  color: black;
+}
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+
+/* Top_places */
+.top_places {
+  padding: 90px 0;
+}
+.top_places h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: rgb(0, 0, 0)
+}
+.top_places h2 {
+  text-align: left;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: rgb(0, 0, 0)
+}
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  background: rgb(204, 200, 200);
+  overflow: auto;
+}
+.Top_places{
+  margin: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+  width: 350px;
+}
+
+.Top_places:hover {
+  border: 1px solid rgb(255, 128, 128);
+}
+.Top_places img{
+  width: 100%;
+  height: auto;
+}
+.desc{
+   padding: 15px;
+   text-align: center;
+   background: white;
 }
 

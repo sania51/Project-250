@@ -47,7 +47,7 @@
   color: #f2f2f2;
   position: absolute;
   top: 350px;
-  left: 501px;
+  left: 32%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 90px;
@@ -55,10 +55,10 @@
 /* Introduction */
 .intro
 {
-  color: white;
+  color: #f0efef;
   position: absolute;
   top: 455px;
-  left: 600px;
+  left: 40%;
   font-family: 'Lobster', cursive;
   opacity: 0.8;
 }
