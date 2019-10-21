@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100wh;
   padding-top: 20px; 
@@ -71,6 +72,7 @@ nav ul li a {
 nav ul li a:hover {
   background: transparent;
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 nav ul li ul {
   display: block;
@@ -125,46 +127,64 @@ hr.line {
 }
 
 /* Top_places */
-.Top_places {
+.container {
   padding: 50px 0;
 }
-.Top_places h1 {
+.top_places h1 {
   text-align: center;
   padding-bottom: 20px;
   font-family: 'Gill Sans';
   color: green;
 
 }
-.Top_places h2 {
-  text-align: left;
-  padding-bottom: 20px;
-  font-family: 'Gill Sans';
-  color: rgb(0, 0, 0)
-}
+
 hr.line {
-  margin: 30px 45%;
+  margin: 0px 45%;
   border: 2px solid red;
 }
 
-.Top_places ul {
+.container{
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+
+  
+}
+.columns{
   column-count: 3;
   column-rule: dotted 1px #333;
   list-style-type: none;
-}
-
-.Top_places li {
-  text-align: center;
 
 }
 
-.Top_places a {
+
+.Top_places{
+  margin: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 220px;
   display: block;
-  font-size: 0.9em;
-  text-decoration: none;
-  font-family: "Open Sans", helvetica, arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.Top_places img {
-  width: 180px;
-  object-fit: cover;
+.Top_places:hover {
+  border: 1px solid rgb(138, 138, 138);
+}
+.Top_places img{
+  width: 100%;
+  height: auto;
+}
+.desc{
+   padding: 8px;
+   text-align: center;
+   background: rgb(210, 213, 214);
+}
+
+.desc a{
+  text-decoration: none;
+}
+
+.desc a:hover{
+  text-decoration: none;
+  color: rgb(9, 9, 163);
 }

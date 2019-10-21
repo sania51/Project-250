@@ -177,6 +177,7 @@ hr.tline {
   nav ul li a:hover{
     background: transparent;
     color: rgb(0, 0, 0);
+    text-decoration: none;
   }
   nav ul li ul{
     display: block;
