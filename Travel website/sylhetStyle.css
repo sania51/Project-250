@@ -113,17 +113,47 @@ nav ul li ul li a {
   font-family: 'Gill Sans';
   color: green;
 }
-.welcome p {
-  margin: 37px 19%;
-  text-align: left;
-  font-style: italic;
-  font-size: 30px;
-  font-family: 'Source Serif Pro', serif;;
-  color: black;
-}
 hr.line {
   margin: 0px 45%;
   border: 2px solid red;
+}
+.welcome p {
+  margin: 37px 19%;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;;
+  color: black;
+}
+#more{
+  display: none;
+}
+/*read more*/
+button{
+  position: relative;
+  text-transform: uppercase;
+  background: url(imgs/background-watercolour-button.png);
+  background-repeat: no-repeat;
+  color: #000;
+  padding: 4px 16px 8px 0px ;
+  width: 125px;
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  margin-top: 1rem;
+  left: 45%;
+  border: none;
+}
+
+button:focus,button:active{
+  outline: none;
+  outline: 0;
+  outline: none !important;
+  outline: 0 !important;
+}
+button:hover {
+  color: #444;
 }
 
 /* Top_places */
@@ -147,10 +177,8 @@ hr.line {
   max-width: 1200px;
   margin: auto;
   overflow: auto;
-
-  
 }
-.columns{
+.column{
   column-count: 3;
   column-rule: dotted 1px #333;
   list-style-type: none;
@@ -187,4 +215,66 @@ hr.line {
 .desc a:hover{
   text-decoration: none;
   color: rgb(9, 9, 163);
+}
+
+/*places to visit*/
+.visit_places h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green;
+
+}
+
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+.visit_places h2 {
+  margin: 40px 3% 25px;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;;
+  color: rgb(4, 100, 100);
+}
+.container{
+
+  background: rgb(255, 255, 255);
+
+}
+.columns{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  width: 700px;
+  list-style-type: none;
+  column-gap: 80px;
+}
+
+.media{
+  overflow: hidden;
+  padding: 10px;
+  border-bottom: 1px solid #c9c8c8;
+}
+.media:last-child{
+border-color: white;
+}
+
+.media_img{
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.media_body{
+  overflow: hidden;
+}
+.media_body a{
+  text-decoration: none;
+}
+.media_body a:hover{
+  text-decoration: none;
+  color: rgb(46, 158, 42);
+}
+.media_body p{
+  color: rgba(0,0,0, 0.5)
 }
