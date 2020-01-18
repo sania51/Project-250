@@ -15,7 +15,7 @@
         <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="../index.php">Home</a></li>
                         <li><a href="#">Cities</a>
                             <ul>
                                 <li><a href="#">Dhaka</a></li>
@@ -105,7 +105,7 @@
         <section class="visit_places">
                 <h1>Places to visit</h1>
                 <hr class="line">
-                <h2>Natural places</h2>
+                <h2>Natural Places</h2>
                 <div class="container">
                 <div class="columns">               
                 <div class="media">
@@ -113,7 +113,7 @@
                           <img src="imgs/Sylhet-Jaflong.jpg" width="80" height="50"/>
                       </div>
                       <div class = "media_body">
-                          <a href="#">Jaflong</a>
+                          <a href="jaflong.php">Jaflong</a>
                           <p>Sylhet</p>
                       </div>
                 </div>
@@ -131,7 +131,7 @@
                         <img src="imgs/Bisanakandi_Tourist_spot.jpg" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="#">Bisanakandi</a>
+                        <a href="bisnakandi.php">Bisanakandi</a>
                         <p>Sylhet</p>
                     </div>
               </div>
@@ -140,7 +140,7 @@
                         <img src="imgs/Lalakhal.png" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="#">Lalakhal</a>
+                        <a href="lalakhal.php">Lalakhal</a>
                         <p>Sylhet</p>
                     </div>
               </div>
@@ -149,7 +149,7 @@
                         <img src="imgs/Lawachara.jpg" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="#">Lowachera</a>
+                        <a href="lawachara.php">Lawachara</a>
                         <p>Sylhet</p>
                     </div>
               </div>
@@ -158,7 +158,7 @@
                       <img src="imgs/Tanguar-Haor-1024x619.jpg" width="80" height="50"/>
                   </div>
                   <div class = "media_body">
-                      <a href="#">Tanguar Haor</a>
+                      <a href="tanguar.php">Tanguar Haor</a>
                       <p>Sylhet</p>
                   </div>
             </div>
@@ -167,7 +167,7 @@
                       <img src="imgs/Sreemangal-Bangladesh-bangladesh-41724982-770-450.jpg" width="80" height="50"/>
                   </div>
                   <div class = "media_body">
-                      <a href="#">Sreemangal and around</a>
+                      <a href="sremongol.php">Sreemangal and Around</a>
                       <p>Sylhet</p>
                   </div>
             </div>
@@ -176,7 +176,7 @@
                       <img src="imgs/bholagonj.jpg" width="80" height="50"/>
                   </div>
                   <div class = "media_body">
-                      <a href="#">Bholagonj</a>
+                      <a href="volagonj.php">Bholagonj</a>
                       <p>Sylhet</p>
                   </div>
             </div>
@@ -185,7 +185,7 @@
                         <img src="imgs/HamHam_falls_sylhet.jpg" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="#">Hamham</a>
+                        <a href="hum.php">Hum Hum</a>
                         <p>Sylhet</p>
                     </div>
               </div>
@@ -194,7 +194,7 @@
                         <img src="imgs/Madhabkunda_Waterfall.jpg" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="#">Madhabkunda</a>
+                        <a href="madhav.php">Madhabkunda</a>
                         <p>Sylhet</p>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                                 <img src="imgs/Khadimnagar_Rain_Forest_Sylhet_(8005265382).jpg" width="80" height="50"/>
                             </div>
                             <div class = "media_body">
-                                <a href="#">Khadimnagar</a>
+                                <a href="khadim.php">Khadimnagar</a>
                                 <p>Sylhet</p>
                             </div>
               </div>
@@ -212,7 +212,7 @@
                         <img src="imgs/Swamp_Sylhet.jpg" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="#">Dibir Haor</a>
+                        <a href="dibir.php">Dibir Haor</a>
                         <p>Sylhet</p>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                             <img src="imgs/hakaluki.jpg" width="80" height="50"/>
                         </div>
                         <div class = "media_body">
-                            <a href="#">Hakaluki Haor</a>
+                            <a href="hakaluki.php">Hakaluki Haor</a>
                             <p>Sylhet</p>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                                 <img src="imgs/lova-chora-1.jpg" width="80" height="50"/>
                             </div>
                             <div class = "media_body">
-                                <a href="#">Lovachora</a>
+                                <a href="lova.php">Lovachora</a>
                                 <p>Sylhet</p>
                             </div>
                         </div>
@@ -239,7 +239,7 @@
                                     <img src="imgs/shimul bagan.jpg" width="80" height="50"/>
                                 </div>
                                 <div class = "media_body">
-                                    <a href="#">Shimul Bagan</a>
+                                    <a href="shimul.php">Shimul Bagan</a>
                                     <p>Sylhet</p>
                                 </div>
                             </div>
@@ -248,7 +248,7 @@
                                         <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
                                     </div>
                                     <div class = "media_body">
-                                        <a href="#">Satchari</a>
+                                        <a href="satchori.php">Sathchori</a>
                                         <p>Sylhet</p>
                                     </div>
                                 </div>

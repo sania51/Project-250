@@ -56,7 +56,7 @@
                           <li><a href="#">Chittagong</a></li>
                           <li><a href="#">Rajshahi</a></li>
                           <li><a href="#">Rangpur</a></li>
-                          <li><a href="Sylhet.php">Sylhet</a></li>
+                          <li><a href="Sylhet/Sylhet.php">Sylhet</a></li>
                           <li><a href="#">Khulna</a></li>
                           <li><a href="#">Barishal</a></li>
                       </ul>    
@@ -117,7 +117,7 @@
                 <div class="carousel-inner row w-100 mx-auto" role="listbox">
                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/rg.jpg" class="img-fluid mx-auto d-block" alt="img1"  width="350" height="500"></a>
+                  <a href="Sylhet/Ratargul.php"><img src="assets/imgs/rg.jpg" class="img-fluid mx-auto d-block" alt="img1"  width="350" height="500"></a>
                   <div class="carousel-caption">
                     <h3>RATARGUL</h3>
                     <h6>SYLHET</h6>

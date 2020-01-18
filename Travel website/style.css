@@ -74,7 +74,7 @@
   width: 90%;
   max-width: 500px;
   border-radius: 30px;
-  background: #fff;
+  background: rgba(255,255,255,0.5);
   margin: auto;
   padding: 2px;
   top: 510px;
@@ -83,6 +83,7 @@
 .form-control {
   border: 0 !important;
   border-radius: 30px !important;
+  opacity: 0.4; 
   margin: 2px;
   box-shadow: none !important;
 }
