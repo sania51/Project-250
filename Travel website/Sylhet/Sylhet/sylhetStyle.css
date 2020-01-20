@@ -1,0 +1,281 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+/* Background */
+.header
+{
+  background-image: url(imgs/Jaflong_Scenario.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+  padding-top: 20px; 
+  color: #fff;
+}
+/* Sylhet */
+.header h1
+{
+  color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 420px;
+  left: 1%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 90px;
+}
+/* Intro */
+.header h2
+{
+  color: #ffffff;
+  position: absolute;
+  top: 520px;
+  left: 1%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  opacity: 0.9;
+}
+/* Navigation Bar */
+.menu {
+  position: absolute;
+  background: transparent;
+  top: 20px;
+  right: 20px;
+}
+
+nav {
+  position: relative;
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 15px 20px;
+  text-decoration: none;
+
+}
+nav ul li a:hover {
+  background: transparent;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+nav ul li ul {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 150px;
+  position: absolute;
+  margin-top: 1px;
+  box-shadow: 0 2px 5px, rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  transform: translateY(40px);
+}
+nav ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+nav ul li ul li a {
+  display: block;
+}
+/* Logo */
+.logo img {
+  top: 5px;
+  left: 1%;
+  width: 120px;
+  position:absolute;
+}
+
+
+/* Welcome */
+.welcome {
+  padding: 90px 0;
+}
+.welcome h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green;
+}
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+.welcome p {
+  margin: 37px 19%;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;;
+  color: black;
+}
+#more{
+  display: none;
+}
+/*read more*/
+button{
+  position: relative;
+  text-transform: uppercase;
+  background: url(imgs/background-watercolour-button.png);
+  background-repeat: no-repeat;
+  color: #000;
+  padding: 4px 16px 8px 0px ;
+  width: 125px;
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  margin-top: 1rem;
+  left: 45%;
+  border: none;
+  opacity: 0.95;
+}
+
+button:focus,button:active{
+  outline: none;
+  outline: 0;
+  outline: none !important;
+  outline: 0 !important;
+}
+button:hover {
+  color: #444;
+}
+
+/* Top_places */
+.container {
+  padding: 50px 0;
+}
+.top_places h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green;
+
+}
+
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+.column{
+  column-count: 3;
+  column-rule: dotted 1px #333;
+  list-style-type: none;
+
+}
+
+
+.Top_places{
+  margin: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Top_places:hover {
+  border: 1px solid rgb(138, 138, 138);
+}
+.Top_places img{
+  width: 100%;
+  height: auto;
+}
+.desc{
+   padding: 8px;
+   text-align: center;
+   background: rgb(210, 213, 214);
+}
+
+.desc a{
+  text-decoration: none;
+}
+
+.desc a:hover{
+  text-decoration: none;
+  color: rgb(9, 9, 163);
+}
+
+/*places to visit*/
+.visit_places h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green;
+
+}
+
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+.visit_places h2 {
+  margin: 40px 3% 25px;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;;
+  color: rgb(4, 100, 100);
+}
+.container{
+
+  background: rgb(255, 255, 255);
+
+}
+.columns{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  width: 700px;
+  list-style-type: none;
+  column-gap: 80px;
+}
+
+.media{
+  overflow: hidden;
+  padding: 10px;
+  border-bottom: 1px solid #c9c8c8;
+}
+.media:last-child{
+border-color: white;
+}
+
+.media_img{
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.media_body{
+  overflow: hidden;
+}
+.media_body a{
+  text-decoration: none;
+}
+.media_body a:hover{
+  text-decoration: none;
+  color: rgb(46, 158, 42);
+}
+.media_body p{
+  color: rgba(0,0,0, 0.5)
+}
