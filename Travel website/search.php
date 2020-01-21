@@ -1,3 +1,7 @@
+<?php
+    include 'db.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,60 +11,36 @@
     <title>Search</title>
 </head>
 <body>
-    <center>
-    <form action="search.php" method="GET">
-    <input type="text" name="search">
-    <input type="submit" name="submit" value="where to?">
-    </form>
-</center>
+<br/>
+<h2>Results...</h2>
 <hr />
-
+<br/>
 <?php
-   if(isset($_REQUEST['submit'])){
-       $search = $_GET['search'];
-       $terms = explode(" ", 'search');
-       //$query = "SELECT * FROM search WHERE";
-       
-       $i = 0;
-       foreach($terms as $each){
-           $i++;
-
-           if($i == 1){
-               $result .= "keywords LIKE '%$each%' ";
-           }else{
-            $result .= "OR keywords LIKE '%$each%' ";
-           }
-       }
-       
-       //connect
-      $con = mysqli_connect("localhost", "root" , "", "travel_website");
-       //mysqli_select_db("travel_website");
-
-       $result = mysqli_query($con, "SELECT * FROM search");
+   if(isset($_POST['submit-search'])){
+       $search = mysqli_real_escape_string($conn, $_POST['search']);
+       $sql = "SELECT * FROM search WHERE title LIKE '%$search%' OR descc LIKE '%$search%' 
+       OR keywords LIKE '%$search%'";
+       $result = mysqli_query($conn, $sql );
        $num = mysqli_num_rows($result);
 
-       if($num>0 && !$search=""){
-            
+       echo "There are .$num. results!";
+
+       if($num>0){
         while($row = mysqli_fetch_assoc($result)){
-            
             $id = $row['id'];
             $title = $row['title'];
-            $description = $row['description'];
+            $description = $row['descc'];
             $keywords = $row['keywords'];
             $link = $row['link'];
 
             echo "<h3><a href='$link'>$title</a></h3>
-            $description<br />";
+            <p>$description</p><br />"; 
         }
+       }else{
+           echo "No result found ";
        }
-       else{
-        echo "No results found";
     }
-    mysqli_close($con);
-   }
-   else{
-       echo "Please type any words...";
-   }
+       
 ?>
 </body>
 </html>
