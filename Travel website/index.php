@@ -42,7 +42,7 @@
         <div class="input-group">
           <input type="text" class="form-control" placeholder="where to?">
           <div class="input-group-append"></div>
-          <button type="submit" class="input-group-text btn">Search</button>
+          <button type="submit" class="input-group-text btn" onclick="window.location.href = 'search.php';">Search</button>
         </div>
         
         <div class="menu">
