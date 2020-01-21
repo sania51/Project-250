@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="sytleRG.css">
+        <link rel="stylesheet" href="stylecard.css">
         <title>Ratargul</title>
     </head>
     <body>
@@ -86,8 +87,41 @@ From Ratarghul Village local boats may charge Taka 1000-1500 for a ride inside t
             }
             </script>
         </div>
+
+        <div class="near">
+            <h1>Nearby Places</h1>
+            <hr class="line"> 
+    
+        </div>
+
+        <div class="card-deck">
+        <div class="card" style="height: 22rem">
+            <img src="imgs\bholagonj.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Bholagonj</h5>
+            <a href="volagonj.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Panthumai</h5>
+            <a href="panthumai.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\14855301281_5099685c97_b.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Bichanakandi</h5>
+            <a href="bisnakandi.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        </div>
     </div>
         
+    <?php
+        include "../footer.php";
+    ?>
 
 
 

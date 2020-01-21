@@ -8,14 +8,14 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="stylebis.css">
-        <title>Bisnakandi</title>
+        <title>Bichnakandi</title>
     </head>
     <body>
 
     <?php include 'nav.php';?>
                 
         <div class="header">
-            <h1>Bisnakandi</h1>
+            <h1>Bichnakandi</h1>
         </div>
         <div class="logo"><img src="imgs/logo.png"></div>
 
@@ -85,7 +85,9 @@
     </div>
         
 
-
+    <?php
+        include "../footer.php";
+    ?>
 
     </body>
 </html>

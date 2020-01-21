@@ -206,6 +206,9 @@
             </div>
           </div>
           </section>
+          <?php
+            include "footer.php";
+          ?>
 
           <!-- Javascript -->
           <script src="assets/js/jquery-3.3.1.min.js"></script>

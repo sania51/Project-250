@@ -69,7 +69,7 @@
                     </script>
         </section>
 
-        <section class="top_places">
+       <!-- <section class="top_places">
             <h1>Top Places</h1>
             <hr class="line">
             <div class="container">
@@ -100,16 +100,17 @@
                 </div>
             </div>
         </div>
-        </section>
+        </section> -->
 
         <section class="visit_places">
-                <h1>Places to visit</h1>
+                <h1>Places to Visit</h1>
                 <hr class="line">
                 <h2>Natural Places</h2>
                 <div class="container">
                 <div class="columns">               
                 <div class="media">
                       <div class= "media_img">
+                          
                           <img src="imgs/Sylhet-Jaflong.jpg" width="80" height="50"/>
                       </div>
                       <div class = "media_body">
@@ -122,7 +123,7 @@
                         <img src="imgs/Ratargul_Scenario.jpg" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="#">Ratargul</a>
+                        <a href="ratargul.php">Ratargul</a>
                         <p>Sylhet</p>
                     </div>
               </div>
@@ -131,7 +132,7 @@
                         <img src="imgs/Bisanakandi_Tourist_spot.jpg" width="80" height="50"/>
                     </div>
                     <div class = "media_body">
-                        <a href="bisnakandi.php">Bisanakandi</a>
+                        <a href="bisnakandi.php">Bichanakandi</a>
                         <p>Sylhet</p>
                     </div>
               </div>
@@ -167,7 +168,7 @@
                       <img src="imgs/Sreemangal-Bangladesh-bangladesh-41724982-770-450.jpg" width="80" height="50"/>
                   </div>
                   <div class = "media_body">
-                      <a href="sremongol.php">Sreemangal and Around</a>
+                      <a href="sremongol.php">Sreemangal</a>
                       <p>Sylhet</p>
                   </div>
             </div>
@@ -243,15 +244,60 @@
                                     <p>Sylhet</p>
                                 </div>
                             </div>
-                            <div class="media">
-                                    <div class= "media_img">
-                                        <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
-                                    </div>
-                                    <div class = "media_body">
-                                        <a href="satchori.php">Sathchori</a>
-                                        <p>Sylhet</p>
-                                    </div>
-                                </div>
+                        <div class="media">
+                            <div class= "media_img">
+                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                            </div>
+                            <div class = "media_body">
+                                <a href="satchori.php">Sathchori</a>
+                                <p>Sylhet</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class= "media_img">
+                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                            </div>
+                            <div class = "media_body">
+                                <a href="satchori.php">Dolura</a>
+                                <p>Sylhet</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class= "media_img">
+                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                            </div>
+                            <div class = "media_body">
+                                <a href="satchori.php">Jadukata</a>
+                                <p>Sylhet</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class= "media_img">
+                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                            </div>
+                            <div class = "media_body">
+                                <a href="satchori.php">Rema Kalenga</a>
+                                <p>Sylhet</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class= "media_img">
+                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                            </div>
+                            <div class = "media_body">
+                                <a href="satchori.php">Panthumai</a>
+                                <p>Sylhet</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class= "media_img">
+                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                            </div>
+                            <div class = "media_body">
+                                <a href="satchori.php">Turongchara Utmachara</a>
+                                <p>Sylhet</p>
+                            </div>
+                        </div>
             </div>
             </div>
         
@@ -263,7 +309,7 @@
                               <img src="imgs/Hazrat_Shahjalal_Majar_buildings.jpg" width="80" height="50"/>
                           </div>
                           <div class = "media_body">
-                              <a href="#">Shrine of Hazrat Shah Jalal</a>
+                              <a href="#">Shrine of Hazrat Shahjalal</a>
                               <p>Sylhet</p>
                           </div>
                     </div>
@@ -297,6 +343,9 @@
                 </div>
                 </div>
         </section>
-
+        
+        <?php
+        include "../footer.php";
+        ?>
     </body>
 </html>

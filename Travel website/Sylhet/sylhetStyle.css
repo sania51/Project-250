@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap');
+
 *
 {
     padding: 0;
@@ -116,6 +119,7 @@ nav ul li ul li a {
 hr.line {
   margin: 0px 45%;
   border: 2px solid red;
+  margin-bottom: 80px;
 }
 .welcome p {
   margin: 37px 19%;
@@ -157,7 +161,7 @@ button:hover {
   color: #444;
 }
 
-/* Top_places */
+/* Top_places 
 .container {
   padding: 50px 0;
 }
@@ -216,7 +220,7 @@ hr.line {
 .desc a:hover{
   text-decoration: none;
   color: rgb(9, 9, 163);
-}
+} */
 
 /*places to visit*/
 .visit_places h1 {
@@ -227,27 +231,24 @@ hr.line {
 
 }
 
-hr.line {
-  margin: 0px 45%;
-  border: 2px solid red;
-}
+
 .visit_places h2 {
-  margin: 40px 3% 25px;
+  margin: 40px 3% 50px;
   text-align: left;
-  font-size: 25px;
-  font-family: 'Source Serif Pro', serif;;
-  color: rgb(4, 100, 100);
+  font-size: 40px;
+  font-family: 'Merienda', cursive;
+  color: rgba(158, 157, 105, 0.863);
 }
 .container{
 
   background: rgb(255, 255, 255);
-
+  margin-bottom: 60px;
 }
 .columns{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 10px;
-  width: 700px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 90px;
+  width: 1140px;
   list-style-type: none;
   column-gap: 80px;
 }
@@ -271,11 +272,13 @@ border-color: white;
 }
 .media_body a{
   text-decoration: none;
+  font-family: 'Arbutus Slab', serif;;
 }
 .media_body a:hover{
   text-decoration: none;
   color: rgb(46, 158, 42);
 }
+
 .media_body p{
   color: rgba(0,0,0, 0.5)
 }
