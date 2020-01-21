@@ -19,29 +19,29 @@
    if(isset($_REQUEST['submit'])){
        $search = $_GET['search'];
        $terms = explode(" ", 'search');
-       $query = "SELECT * FROM search WHERE";
+       //$query = "SELECT * FROM search WHERE";
        
        $i = 0;
        foreach($terms as $each){
            $i++;
 
            if($i == 1){
-               $query .= "keywords LIKE '%$each%' ";
+               $result .= "keywords LIKE '%$each%' ";
            }else{
-            $query .= "OR keywords LIKE '%$each%' ";
+            $result .= "OR keywords LIKE '%$each%' ";
            }
        }
        
        //connect
-       mysql_connect("localhost", "root" , "");
-       mysql_select_db("travel_website");
+      $con = mysqli_connect("localhost", "root" , "", "travel_website");
+       //mysqli_select_db("travel_website");
 
-       $query = mysql_query($query);
-       $num = mysql_num_rows($query);
+       $result = mysqli_query($con, "SELECT * FROM search");
+       $num = mysqli_num_rows($result);
 
        if($num>0 && !$search=""){
             
-        while($row = mysql_fetch_assoc($query)){
+        while($row = mysqli_fetch_assoc($result)){
             
             $id = $row['id'];
             $title = $row['title'];
@@ -56,7 +56,7 @@
        else{
         echo "No results found";
     }
-    mysql_close();
+    mysqli_close($con);
    }
    else{
        echo "Please type any words...";
