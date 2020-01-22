@@ -258,9 +258,7 @@ hr.line {
   padding: 10px;
   border-bottom: 1px solid #c9c8c8;
 }
-.media:last-child{
-border-color: white;
-}
+
 
 .media_img{
   float: left;

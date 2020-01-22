@@ -7,7 +7,7 @@
 /* Background */
 .header
 {
-  background-image: url(imgs/3566416076_1a1ffcf87d_b.jpg);
+  background-image: url(imgs/IMG_20180914_114238.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,8 +20,7 @@
 /* Ratargul */
 .header h1
 {
-  color: white;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.85);
   position: center;
   top: 420px;
   left: 1%;
@@ -155,4 +154,11 @@ button:hover {
   font-family: 'Source Serif Pro', serif;
   font-size: 23px;
   margin-bottom: 15px;
+}
+.near h1{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green;  
 }

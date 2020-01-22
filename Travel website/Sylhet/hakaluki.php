@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="stylehaka.css">
+        <link rel="stylesheet" href="../stylecard.css">
         <title>Hakaluki Haor</title>
     </head>
     <body>
@@ -82,10 +83,35 @@
             }
             </script>
         </div>
+        <div class="card-deck">
+        <div class="card" style="height: 22rem">
+            <img src="imgs\Shimul-bagan.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Tanguar Haor</h5>
+            <a href="tanguar.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Shimul Bagan</h5>
+            <a href="shimul.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\bholagonj.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Bholagonj</h5>
+            <a href="volagonj.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        </div>
     </div>
         
 
-
+    <?php
+        include "../footer.php";
+    ?>
 
     </body>
 </html>

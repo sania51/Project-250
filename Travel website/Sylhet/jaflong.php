@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="stylejaf.css">
+        <link rel="stylesheet" href="../stylecard.css">
         <title>Jaflong</title>
     </head>
     <body>
@@ -83,10 +84,35 @@
             }
             </script>
         </div>
+        <div class="card-deck">
+        <div class="card" style="height: 22rem">
+            <img src="imgs\Lalakhal.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Lalakhal</h5>
+            <a href="lalakhal.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Panthumai</h5>
+            <a href="panthumai.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\22357970719_ec34687729_b.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Lovachora</h5>
+            <a href="lova.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        </div>
     </div>
         
 
-
+    <?php
+        include "../footer.php";
+    ?>
 
     </body>
 </html>

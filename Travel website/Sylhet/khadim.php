@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="stylekhadim.css">
+        <link rel="stylesheet" href="../stylecard.css">
         <title>Khadimnagar</title>
     </head>
     <body>
@@ -82,10 +83,35 @@
             }
             </script>
         </div>
+        <div class="card-deck">
+        <div class="card" style="height: 22rem">
+            <img src="imgs\Sylhet-Dibir-Haor-By-Farzana-Anu.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Dibir Haor</h5>
+            <a href="dibir.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Shrine of Hazrat Shahporan</h5>
+            <a href="shahporan.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\jaflong.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Jaflong</h5>
+            <a href="jaflong.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        </div>
     </div>
         
 
-
+    <?php
+        include "../footer.php";
+    ?>
 
     </body>
 </html>

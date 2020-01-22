@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="stylesat.css">
+        <link rel="stylesheet" href="../stylecard.css">
         <title>Sathchori</title>
     </head>
     <body>
@@ -82,10 +83,35 @@
             }
             </script>
         </div>
+        <div class="card-deck">
+        <div class="card" style="height: 22rem">
+            <img src="imgs\HamHam_falls_sylhet.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Hum Hum</h5>
+            <a href="hum.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\tea_garden.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Sreemongol</h5>
+            <a href="sremongol.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        <div class="card" style="height: 22rem">
+            <img src="imgs\Lawachara.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Lawachora</h5>
+            <a href="lawachara.php" class="btn btn-outline-dark" role="button">Details</a>
+            </div>
+        </div>
+        </div>
     </div>
         
 
-
+    <?php
+        include "../footer.php";
+    ?>
 
     </body>
 </html>

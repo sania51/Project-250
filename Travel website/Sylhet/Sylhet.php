@@ -12,26 +12,7 @@
     </head>
     <body>
 
-        <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="../index.php">Home</a></li>
-                        <li><a href="#">Cities</a>
-                            <ul>
-                                <li><a href="#">Dhaka</a></li>
-                                <li><a href="#">Chittagong</a></li>
-                                <li><a href="#">Rajshahi</a></li>
-                                <li><a href="#">Rangpur</a></li>
-                                <li><a href="Sylhet.php">Sylhet</a></li>
-                                <li><a href="#">Khulna</a></li>
-                                <li><a href="#">Barishal</a></li>
-                            </ul>    
-                        </li>       
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Sign in</a> 
-                    </ul>
-                </nav>
-            </div>
+    <?php include 'nav.php';?>
                 
         <div class="header">
             <h1>Sylhet</h1>
@@ -69,39 +50,7 @@
                     </script>
         </section>
 
-       <!-- <section class="top_places">
-            <h1>Top Places</h1>
-            <hr class="line">
-            <div class="container">
-                    <div class="column">
-                <div class="Top_places">
-                      <img src="imgs/Ratargul_Scenario.jpg" width="200" height="140" />
-                      <div class="desc"><a href="#">Ratargul swamp Forest</a></div>
-                </div>
-                <div class="Top_places">
-                          <img src="imgs/Bisanakandi_Tourist_spot1.jpg" width="200" height="140"/>
-                          <div class="desc"><a href="#">Bichanakandi</a></div>
-                    </div>
-                <div class="Top_places">
-                      <img src="imgs/Sylhet-Jaflong.jpg" width="200" height="140" />
-                      <div class="desc"><a href="#">Jaflong</a></div>
-                </div>
-                <div class="Top_places">
-                      <img src="imgs/Lawachara.jpg" width="200" height="140" />
-                      <div class="desc"><a href="#">Lowachera National Park</a></div>
-                </div>
-                <div class="Top_places">
-                      <img src="imgs/Blog-Tanguar-Haor-4.png" width="200" height="140"/>
-                      <div class="desc"><a href="#">Tanguar Haor</a></div>
-                </div>
-                <div class="Top_places">
-                      <img src="imgs/Lalakhal.png" width="200" height="140"/>
-                      <div class="desc"><a href="#">Lalakhal</a></div>
-                </div>
-            </div>
-        </div>
-        </section> -->
-
+       
         <section class="visit_places">
                 <h1>Places to Visit</h1>
                 <hr class="line">
@@ -174,7 +123,7 @@
             </div>
             <div class="media">
                   <div class= "media_img">
-                      <img src="imgs/bholagonj.jpg" width="80" height="50"/>
+                      <img src="imgs/IMG_20180914_114238.jpg" width="80" height="50"/>
                   </div>
                   <div class = "media_body">
                       <a href="volagonj.php">Bholagonj</a>
@@ -255,88 +204,61 @@
                         </div>
                         <div class="media">
                             <div class= "media_img">
-                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                                <img src="imgs/panthumai.jpg" width="80" height="50"/>
                             </div>
                             <div class = "media_body">
-                                <a href="satchori.php">Dolura</a>
+                                <a href="panthumai.php">Panthumai</a>
                                 <p>Sylhet</p>
                             </div>
                         </div>
                         <div class="media">
                             <div class= "media_img">
-                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
+                                <img src="imgs/turung-4-750x350.jpg" width="80" height="50"/>
                             </div>
                             <div class = "media_body">
-                                <a href="satchori.php">Jadukata</a>
-                                <p>Sylhet</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class= "media_img">
-                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
-                            </div>
-                            <div class = "media_body">
-                                <a href="satchori.php">Rema Kalenga</a>
-                                <p>Sylhet</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class= "media_img">
-                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
-                            </div>
-                            <div class = "media_body">
-                                <a href="satchori.php">Panthumai</a>
-                                <p>Sylhet</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class= "media_img">
-                                <img src="imgs/Satchari_Scenario.jpg" width="80" height="50"/>
-                            </div>
-                            <div class = "media_body">
-                                <a href="satchori.php">Turongchara Utmachara</a>
+                                <a href="turong.php">Turong Chora</a>
                                 <p>Sylhet</p>
                             </div>
                         </div>
             </div>
             </div>
         
-            <h2>Historical & Natural Places</h2>
+            <h2>Historical & Religious Places</h2>
             <div class="container">
                     <div class="columns">               
                     <div class="media">
                           <div class= "media_img">
-                              <img src="imgs/Hazrat_Shahjalal_Majar_buildings.jpg" width="80" height="50"/>
+                              <img src="imgs/jalal.jpg" width="80" height="50"/>
                           </div>
                           <div class = "media_body">
-                              <a href="#">Shrine of Hazrat Shahjalal</a>
+                              <a href="shahjalal.php">Shrine of Hazrat Shahjalal</a>
                               <p>Sylhet</p>
                           </div>
                     </div>
                     <div class="media">
+                          <div class= "media_img">
+                              <img src="imgs/poran.jpg" width="80" height="50"/>
+                          </div>
+                          <div class = "media_body">
+                              <a href="shahporan.php">Shrine of Hazrat Shahparan</a>
+                              <p>Sylhet</p>
+                          </div>
+                    </div>
+                  <div class="media">
                         <div class= "media_img">
-                            <img src="imgs/museum of raja.jpg" width="80" height="50"/>
+                            <img src="imgs/1280px-Keane_Bridge_6426.jpg" width="80" height="50"/>
                         </div>
                         <div class = "media_body">
-                            <a href="#">Museum of the Rajas</a>
+                            <a href="kean.php">Keane Bridge</a>
                             <p>Sylhet</p>
                         </div>
                   </div>
                   <div class="media">
                         <div class= "media_img">
-                            <img src="imgs/KEAN_BRIDGE,_SYLHET.jpg" width="80" height="50"/>
+                            <img src="imgs/DsYb1NiU8AEk3wH.jpg" width="60" height="55"/>
                         </div>
                         <div class = "media_body">
-                            <a href="#">Kean Bridge</a>
-                            <p>Sylhet</p>
-                        </div>
-                  </div>
-                  <div class="media">
-                        <div class= "media_img">
-                            <img src="imgs/2448px-Ali_Amjad's_Clock_05.jpg" width="60" height="55"/>
-                        </div>
-                        <div class = "media_body">
-                            <a href="#">Ali Amjad's Clock</a>
+                            <a href="clock.php">Ali Amjad's Clock</a>
                             <p>Sylhet</p>
                         </div>
                   </div>

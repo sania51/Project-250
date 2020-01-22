@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="sytleRG.css">
-        <link rel="stylesheet" href="stylecard.css">
+        <link rel="stylesheet" href="../stylecard.css">
         <title>Ratargul</title>
     </head>
     <body>
