@@ -8,13 +8,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="search.css">
     <title>Search</title>
+
 </head>
+
 <body>
-<br/>
+
+<section>
+<?php include "nav.php";?>
+<div class="logo"><img src="imgs/logo.png"></div>
+</section>
+
+<section class="rslt">
 <h2>Results...</h2>
 <hr />
 <br/>
+</section>
+
 <?php
    if(isset($_POST['submit-search'])){
        $search = mysqli_real_escape_string($conn, $_POST['search']);
@@ -23,7 +34,7 @@
        $result = mysqli_query($conn, $sql );
        $num = mysqli_num_rows($result);
 
-       echo "There are .$num. results!";
+     //  echo "There are .$num. results!";
 
        if($num>0){
         while($row = mysqli_fetch_assoc($result)){

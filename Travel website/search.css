@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    background:rgb(255, 235, 220);
+}
+/* Logo */
+.logo img {
+    top: 5px;
+    left: 55px;
+    width: 120px;
+    position:absolute;
+  }
+
+.rslt{
+    padding-top: 150px;
+   padding-bottom: 5px;
+}
