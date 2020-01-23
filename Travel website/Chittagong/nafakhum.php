@@ -25,7 +25,7 @@
         <section class="overview">
             <h1>Overview</h1>
             <hr class="line">
-            <p>Nafa-khum Waterfall (Bengali: নাফাখুম) is located in Thanchi Upazila of Bandarban on the Sangu River. It is among the largest waterfalls in the country by volume of water falling. The wild hilly river Sangu suddenly falls down here about 25–30 feet.<span id="dots">...</span><span id="more"><br><br>The falls are located in a remote area three hours’ walking distance from Remakri, Thanchi Upazila, Bandarban District. Remakri is located three hours by boat on the Sangu River from Tindu, which is itself three hours by boat from Thanchi. Nafa-khum is not very popular as a tourist destination.<br><br>The word “Khum” in Marma language means “Waterfall”. A special type of flying fish, whose local name is nating, is found at the bottom in a small cave as they swim against the stream but cannot jump over the height of the fall.</span></p>
+            <p>Nafa-khum Waterfall is located in Thanchi Upazila of Bandarban on the Sangu River. It is among the largest waterfalls in the country by volume of water falling. The wild hilly river Sangu suddenly falls down here about 25–30 feet.<span id="dots">...</span><span id="more"><br><br>The falls are located in a remote area three hours’ walking distance from Remakri, Thanchi Upazila, Bandarban District. Remakri is located three hours by boat on the Sangu River from Tindu, which is itself three hours by boat from Thanchi. Nafa-khum is not very popular as a tourist destination.<br><br>The word “Khum” in Marma language means “Waterfall”. A special type of flying fish, whose local name is nating, is found at the bottom in a small cave as they swim against the stream but cannot jump over the height of the fall.</span></p>
             <button class="b" onclick="myFunction()" id="myBtn">Read more</button>
 
             <script>
@@ -92,24 +92,24 @@
 
         <div class="card-deck">
         <div class="card" style="height: 22rem">
-            <img src="imgs\bholagonj.jpg" class="card-img-top" alt="...">
+            <img src="imgs\amia.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Bholagonj</h5>
-            <a href="volagonj.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Amiakhum</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
-            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Sajek_Valley.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Panthumai</h5>
-            <a href="panthumai.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Sajek</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
-            <img src="imgs\14855301281_5099685c97_b.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Napittachora.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Bichanakandi</h5>
-            <a href="bisnakandi.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Napittachora</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         </div>

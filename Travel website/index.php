@@ -168,7 +168,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="sajek.php"><img src="assets/imgs/163_gallary_1.jpg" class="img-fluid mx-auto d-block" alt="img6"></a>
+                  <a href="Chittagong/sajek.php"><img src="assets/imgs/163_gallary_1.jpg" class="img-fluid mx-auto d-block" alt="img6"></a>
                   <div class="carousel-caption">
                     <h3>SAJEK VALLEY</h3>
                     <h6>RANGAMATI</h6>

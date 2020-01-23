@@ -92,24 +92,24 @@
 
         <div class="card-deck">
         <div class="card" style="height: 22rem">
-            <img src="imgs\bholagonj.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Saint-Martin-Island.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Bholagonj</h5>
-            <a href="volagonj.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Saint Martin Island</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
-            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <img src="imgs\inani.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Panthumai</h5>
-            <a href="panthumai.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Inani Beach</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
-            <img src="imgs\14855301281_5099685c97_b.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Himchori_Waterfall_.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Bichanakandi</h5>
-            <a href="bisnakandi.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Himchori</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         </div>

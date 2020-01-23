@@ -92,24 +92,24 @@
 
         <div class="card-deck">
         <div class="card" style="height: 22rem">
-            <img src="imgs\bholagonj.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Boga-Lake-byTalash.shahnewaz-1024x683.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Bholagonj</h5>
-            <a href="volagonj.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Boga Lake</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
-            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Foys-Lake-Chittagong.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Panthumai</h5>
-            <a href="panthumai.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Foy's Lake</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
-            <img src="imgs\14855301281_5099685c97_b.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Sajek_Valley.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            <h5 class="card-title">Bichanakandi</h5>
-            <a href="bisnakandi.php" class="btn btn-outline-dark" role="button">Details</a>
+            <h5 class="card-title">Sajek</h5>
+            <a href="#" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         </div>
