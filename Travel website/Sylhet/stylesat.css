@@ -156,3 +156,10 @@ button:hover {
   font-size: 23px;
   margin-bottom: 15px;
 }
+.near h1{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green;  
+}

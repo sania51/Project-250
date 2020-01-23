@@ -101,14 +101,14 @@
             <img src="imgs\hakaluki haor sylhet1.png" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Hakaluki Haor</h5>
-            <a href="panthumai.php" class="btn btn-outline-dark" role="button">Details</a>
+            <a href="hakaluki.php" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
             <img src="imgs\Shimul-bagan.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Shimul Bagan</h5>
-            <a href="bisnakandi.php" class="btn btn-outline-dark" role="button">Details</a>
+            <a href="shimul.php" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         </div>
@@ -116,7 +116,7 @@
         
 
     <?php
-        include "../footer.php";
+        include "footer.php";
     ?>
 
     </body>

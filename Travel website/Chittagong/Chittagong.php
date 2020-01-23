@@ -12,7 +12,7 @@
     </head>
     <body>
 
-    <?php include "../nav.php";?>
+    <?php include "nav.php";?>
                 
         <div class="header">
             <h1>Chittagong</h1>
@@ -521,7 +521,7 @@
         </section>
         
         <?php
-        include "../footer.php";
+        include "footer.php";
         ?>
     </body>
 </html>

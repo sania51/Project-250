@@ -59,15 +59,15 @@
                   <li><a href="#">Cities</a>
                       <ul>
                           <li><a href="#">Dhaka</a></li>
-                          <li><a href="#">Chittagong</a></li>
+                          <li><a href="Chittagong\Chittagong.php">Chittagong</a></li>
                           <li><a href="#">Rajshahi</a></li>
                           <li><a href="#">Rangpur</a></li>
-                          <li><a href="Sylhet/Sylhet.php">Sylhet</a></li>
+                          <li><a href="Sylhet\Sylhet.php">Sylhet</a></li>
                           <li><a href="#">Khulna</a></li>
                           <li><a href="#">Barishal</a></li>
                       </ul>    
                   </li>       
-                  <li><a href="#">Blogs</a></li>
+                  <li><a href="history.php">History</a></li>
                   <li><a href="#">Sign in</a> 
               </ul>
           </nav>
@@ -132,7 +132,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/IMG_20190929_090826.jpg" class="img-fluid mx-auto d-block" alt="img2"></a>
+                  <a href="Chittagong/debota.php"><img src="assets/imgs/IMG_20190929_090826.jpg" class="img-fluid mx-auto d-block" alt="img2"></a>
                   <div class="carousel-caption">
                     <h3>DEBOTAKHUM</h3>
                     <h6>BANDARBAN</h6>
@@ -141,7 +141,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/scenic-view-of-ocean-during-sunset-1032650.jpg" class="img-fluid mx-auto d-block" alt="img3"></a>
+                  <a href="Chittagong/cox.php"><img src="assets/imgs/scenic-view-of-ocean-during-sunset-1032650.jpg" class="img-fluid mx-auto d-block" alt="img3"></a>
                   <div class="carousel-caption">
                     <h3>COX'S BAZAR</h3>
                     <h6>CHITTAGONG</h6>
@@ -150,7 +150,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/sb.jpg" class="img-fluid mx-auto d-block" alt="img4"></a>
+                  <a href="sundar.php"><img src="assets/imgs/sb.jpg" class="img-fluid mx-auto d-block" alt="img4"></a>
                   <div class="carousel-caption">
                     <h3>SUNDARBANS</h3>
                     <h6>KHULNA</h6>
@@ -159,7 +159,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/hum.jpg" class="img-fluid mx-auto d-block" alt="img5"></a>
+                  <a href="Sylhet/hum.php"><img src="assets/imgs/hum.jpg" class="img-fluid mx-auto d-block" alt="img5"></a>
                   <div class="carousel-caption">
                     <h3>HUM HUM</h3>
                     <h6>SREEMANGAL</h6>
@@ -168,7 +168,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/163_gallary_1.jpg" class="img-fluid mx-auto d-block" alt="img6"></a>
+                  <a href="sajek.php"><img src="assets/imgs/163_gallary_1.jpg" class="img-fluid mx-auto d-block" alt="img6"></a>
                   <div class="carousel-caption">
                     <h3>SAJEK VALLEY</h3>
                     <h6>RANGAMATI</h6>
@@ -177,7 +177,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/kll.jpg" class="img-fluid mx-auto d-block" alt="img7"></a>
+                  <a href="Chittagong/kaptai.php"><img src="assets/imgs/kll.jpg" class="img-fluid mx-auto d-block" alt="img7"></a>
                   <div class="carousel-caption">
                     <h3>KAPTAI LAKE</h3>
                     <h6>RANGAMATI</h6>
@@ -186,7 +186,7 @@
               </div>
               <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card-img-wrap">
-                  <a href="#"><img src="assets/imgs/nk.jpg" class="img-fluid mx-auto d-block" alt="img8"></a>
+                  <a href="Chittagong/nafakhum.php"><img src="assets/imgs/nk.jpg" class="img-fluid mx-auto d-block" alt="img8"></a>
                   <div class="carousel-caption">
                     <h3>NAFAKHUM</h3>
                     <h6>BANDARBAN</h6>

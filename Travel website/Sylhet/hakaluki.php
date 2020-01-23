@@ -85,14 +85,14 @@
         </div>
         <div class="card-deck">
         <div class="card" style="height: 22rem">
-            <img src="imgs\Shimul-bagan.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Tanguar-Haor-1024x619.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Tanguar Haor</h5>
             <a href="tanguar.php" class="btn btn-outline-dark" role="button">Details</a>
             </div>
         </div>
         <div class="card" style="height: 22rem">
-            <img src="imgs\panthumai.jpg" class="card-img-top" alt="...">
+            <img src="imgs\Shimul-bagan.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Shimul Bagan</h5>
             <a href="shimul.php" class="btn btn-outline-dark" role="button">Details</a>
@@ -110,7 +110,7 @@
         
 
     <?php
-        include "../footer.php";
+        include "footer.php";
     ?>
 
     </body>

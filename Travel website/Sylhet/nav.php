@@ -77,7 +77,7 @@ nav ul li ul li a {
             <li><a href="#">Cities</a>
                 <ul>
                     <li><a href="#">Dhaka</a></li>
-                    <li><a href="#">Chittagong</a></li>
+                    <li><a href="../Chittagong/Chittagong.php">Chittagong</a></li>
                     <li><a href="#">Rajshahi</a></li>
                     <li><a href="#">Rangpur</a></li>
                     <li><a href="Sylhet.php">Sylhet</a></li>
@@ -85,7 +85,7 @@ nav ul li ul li a {
                     <li><a href="#">Barishal</a></li>
                 </ul>    
             </li>       
-            <li><a href="#">Blogs</a></li>
+            <li><a href="../history.php">History</a></li>
             <li><a href="#">Sign in</a></li>
         </ul>
     </div>

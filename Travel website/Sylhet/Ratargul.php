@@ -120,7 +120,7 @@ From Ratarghul Village local boats may charge Taka 1000-1500 for a ride inside t
     </div>
         
     <?php
-        include "../footer.php";
+        include "footer.php";
     ?>
 
 

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+/* Background */
+.header
+{
+  background-image: url(imgs/56701aad06c24.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 90vh;
+  width: 98.9vw;
+  padding-top: 20px; 
+  color: #fff;
+}
+/* Ratargul */
+.header h1
+{
+  color: rgba(255, 255, 255,255);
+  
+  position: center;
+  top: 420px;
+  left: 1%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 90px;
+}
+
+
+/* Logo */
+.logo img {
+  top: 5px;
+  left: 1%;
+  width: 120px;
+  position:absolute;
+}
+
+
+#wrapper{
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+  margin-top: 20px;
+  max-width: 1200px; /* 2 */
+
+  padding-right: 0px; /* 3 */
+  padding-left:  0px; 
+  background-color: rgb(247, 248, 225);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+
+
+/* Overview */
+.overview {
+  padding: 90px 0;
+}
+.overview h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans';
+  color: green;
+  
+}
+hr.line {
+  margin: 0px 45%;
+  border: 2px solid red;
+}
+.overview h2 {
+ margin-top: 50px;
+ margin-left: 10px;
+ font-family: 'Merienda', cursive;
+ color: rgb(60, 60, 140);
+}
+.overview p {
+  margin: 25px 5%;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;
+  color: black;
+  margin-bottom: 50px;
+}
+#more{
+  display: none;
+}
